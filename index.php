@@ -1,1 +1,7 @@
-<?php include_once("index.html"); ?>
+<html>
+<body>
+Silence is golden.
+<!-- subdomain takeover PoC by glc -->
+<!-- <?php var_dump($_COOKIES); ?> -->
+</body>
+<html>
