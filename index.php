@@ -2,9 +2,7 @@
 <body>
 Silence is golden.
 <!-- subdomain takeover PoC by glc -->
-<?php var_dump($_GET); ?>
-<?php var_dump($_COOKIES); ?>
-<a href="javascript:alert(document.cookie);">ccc</a>
-<?php phpinfo(); ?>
+<br><br>
+<a href="javascript:alert(document.cookie);">click here to view your cookies</a>
 </body>
 <html>
