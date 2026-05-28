@@ -57,4 +57,4 @@ jobs:
           app-name: 'app-psia-svligne-prod-cac-001'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BC8870410E524D2E970C68201ACDAD53 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FD15355A8AD44DE89E63399E2BA2D4A2 }}
