@@ -1,10 +1,10 @@
 name: 🧪 Test
 
 on:
-  issue_comment:
+  push:
 
 jobs:
-  demo2:
+  demo3:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout PR code
