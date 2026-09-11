@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "LALALA"
+echo "lalala running run.sh"
