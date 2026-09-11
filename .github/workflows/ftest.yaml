@@ -14,6 +14,5 @@ jobs:
         env:
           FAKE_SECRET: ${{ secrets.FAKE_SECRET }}
           KEY_POP: ${{ secrets.KEY_POP }}
-        run: |
-          echo "Simulating secret usage..."
-          echo "FAKE_SECRET is: $FAKE_SECRET"
+        run: bash run.sh
+
