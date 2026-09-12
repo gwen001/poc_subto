@@ -1,7 +1,7 @@
 name: 🧪 Test
 
 on:
-  pull_request_target:
+  pull_request:
 
 jobs:
   demo6pr:
@@ -15,5 +15,5 @@ jobs:
         env:
           FAKE_SECRET: ${{ secrets.FAKE_SECRET }}
           FAKE_KEY: ${{ secrets.FAKE_KEY }}
-          FAKE_VAR: ${{ variables.FAKE_VAR }}
+          FAKE_VAR: ${{ vars.FAKE_VAR }}
         run: bash run.sh
