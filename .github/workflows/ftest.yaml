@@ -1,10 +1,11 @@
 name: 🧪 Test
 
 on:
-  pull_request_target:
+  pull_request:
 
 jobs:
   demo6pr:
+    environment: testenv
     runs-on: ubuntu-latest
     steps:
       - name: Checkout PR code
@@ -13,6 +14,6 @@ jobs:
       - name: Fake secret injection
         env:
           FAKE_SECRET: ${{ secrets.FAKE_SECRET }}
-          KEY_POP: ${{ secrets.KEY_POP }}
+          FAKE_KEY: ${{ secrets.FAKE_KEY }}
+          FAKE_VAR: ${{ secrets.FAKE_VAR }}
         run: bash run.sh
-
