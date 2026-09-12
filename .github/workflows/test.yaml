@@ -1,0 +1,19 @@
+name: 🧪 Test
+
+on:
+  push:
+
+jobs:
+  demo6pr:
+    environment: testenv
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout PR code
+        uses: actions/checkout@v4
+
+      - name: Fake secret injection
+        env:
+          FAKE_SECRET: ${{ secrets.FAKE_SECRET }}
+          FAKE_KEY: ${{ secrets.FAKE_KEY }}
+          FAKE_VAR: ${{ vars.FAKE_VAR }}
+        run: bash run.sh
