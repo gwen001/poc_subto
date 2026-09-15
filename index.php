@@ -1,7 +1,7 @@
 <html>
 <body>
 Silence is golden and subdomain takeover still an issue 🤠​
-<!-- subdomain takeover PoC by glc: <?php echo $_SERVER['SERVER_NAME']; ?> -->
+<!-- subdomain takeover PoC by https://glc.st -->
 <br><br>
 <a href="javascript:alert(document.cookie);">click here to view your cookies with JS</a><br><br>
 Good read:
