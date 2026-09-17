@@ -1,0 +1,3 @@
+applications:
+  myapp:
+    type: "php:8.5"
