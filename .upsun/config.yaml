@@ -1,10 +1,10 @@
 applications:
   myapp:
     type: "php:8.5"
+      root: /
     web:
       locations:
         "/":
-          root: "/"
           passthru: "/index.php"
           index:
               - "index.php"
