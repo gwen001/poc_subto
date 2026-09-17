@@ -6,5 +6,6 @@ applications:
     web:
       locations:
         "/":
-          root: "public"
-          passthru: "/index.php"
+          root: ""
+          index:
+            - "index.php"
