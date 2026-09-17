@@ -1,7 +1,6 @@
 applications:
   myapp:
-    type: "php:8.5"
-      root: /
+    type: php:8.5
     web:
       locations:
         "/":
