@@ -1,3 +1,5 @@
 applications:
   myapp:
     type: "php:8.5"
+    source:
+      root: /
