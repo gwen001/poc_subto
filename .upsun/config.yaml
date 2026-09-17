@@ -6,7 +6,6 @@ applications:
     web:
       locations:
         "/":
-          root: "/"
           passthru: "/index.php"
           index:
-              - "index.php"
+              - "index.html"
