@@ -17,12 +17,12 @@
                 --danger-soft:#ffcccc;
                 --text:#0f172a;
                 --muted:#64748b;
-                --whatisit:#9a33e1;
+                --whatisit:#dc2626;
                 --impact:#dc2626;
                 --remediation:#16a34a;
                 --remediation:#16a34a;
                 --reference:#e18e33;
-                --aboutme:#fff500;
+                --aboutme:#9a33e1;
             }
 
             *{
@@ -108,7 +108,7 @@
                 border:1px solid #bbf7d0;
                 color:#166534;
                 border-radius:10px;
-                padding:24px;
+                padding:15px;
             }
 
             .section{
@@ -287,9 +287,12 @@
             </section>
 
             <section class="section">
+                <h2 class="section-title">
+                    What Is a Subdomain Takeover?
+                </h2>
                 <div class="grid">
                     <div class="card whatisit">
-                        <h3>What Is a Subdomain Takeover?</h3>
+                        <h3>Subdomain Takeover in a Nutshell</h3>
                         <p>
                             A Subdomain Takeover occurs when a DNS record references
                             a cloud or third-party service that is no longer claimed,
@@ -433,7 +436,7 @@
                             Read →
                         </a>
                     </div>
-                                        <div class="card reference">
+                    <div class="card reference">
                         <h3>Ignore this vulnerability at your peril</h3>
                         <p>
                             Analysis of takeover: scenarios, impacts, exploitation, how bad is a subdomain attack,
